@@ -1,0 +1,44 @@
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.navs {
+    ul {
+        li {
+            a {
+                &.active,&:hover{
+                    color: $btn-color !important;
+                }
+            }
+        }
+    }
+}
+
+#home {
+    max-width: 100vw;
+    min-height: fit-content;
+    background-image: url(../Assets/home/home-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#phone-img {
+    img {
+        max-width: 250px;
+    }
+}
+
+.min-btn {
+    background: $btn-color !important;
+    color: $white-color !important;
+    &:hover {
+        background: #0098cf !important;
+    }
+}

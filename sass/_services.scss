@@ -1,0 +1,26 @@
+#services {
+    max-width: 100vw;
+    min-height: fit-content;
+    background-image: url(../Assets/Services/Services-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#services-img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid $white-color;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        max-width: 35px;
+    }
+}
+
+#What-img{
+    max-width: 250px;
+}
+
+
